@@ -7,7 +7,7 @@ PYTHON_PATH = "C:/Path/To/Python/python.exe"
 SCRIPT_PATH = "C:/Path/To/Project/main.py"
 
 
-
+ 
 CLIENT_SECRET_PATH = "j_client_secret.json"
 TOKEN_PATH = "j_token.json"
 CRYPTO_URLS = [
