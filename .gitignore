@@ -1,0 +1,19 @@
+# secrets & auth
+j_client_secret.json
+j_token.json
+.env
+
+# runtime data
+*.json
+*.txt
+
+# generated outputs
+pdf/
+charts/
+
+# logs
+logs/
+
+# python cache
+__pycache__/
+ 
