@@ -4,11 +4,12 @@
 PYTHON_PATH = "C:/Path/To/Python/python.exe"
 
 # Path to main script – replace with your own path
-SCRIPT_PATH = "C:/Path/To/Project/main.py"
+SCRIPT_PATH = "C:/Path/To/Project/program_01_main.py"
 
-
- 
+# Path to client secret – replace with your own path
 CLIENT_SECRET_PATH = "j_client_secret.json"
+
+
 TOKEN_PATH = "j_token.json"
 CRYPTO_URLS = [
     f"https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",

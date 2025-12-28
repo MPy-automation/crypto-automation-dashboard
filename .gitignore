@@ -6,6 +6,7 @@ j_token.json
 # runtime data
 *.json
 *.txt
+!requirements.txt 
 
 # generated outputs
 pdf/
