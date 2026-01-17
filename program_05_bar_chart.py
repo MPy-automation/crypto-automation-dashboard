@@ -36,7 +36,7 @@ def b_chart_maker():
                         else:
                             y_pos = v - abs(offset)    
                             va = 'top'              
-                        plt.text(i, y_pos, f"{v:.2f}%", ha='center', va=va, fontsize=10, fontweight = "bold")
+                    plt.text(i, y_pos, f"{v:.2f}%", ha='center', va=va, fontsize=10, fontweight = "bold")
 
         except (KeyError, IndexError) as e:
             if os.path.exists(BAR_CHART_PATH):

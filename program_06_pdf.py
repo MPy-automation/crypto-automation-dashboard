@@ -28,7 +28,7 @@ def pdf_maker():
         ### Set PDF document title ###
         elements.append(Paragraph("📈 <b>Regular crypto report</b>", styles["Title"]))
         elements.append(Spacer(1, 20))
-        elements.append(Paragraph(f"Creation date: {datetime.now()}", styles["Normal"]))
+        elements.append(Paragraph(f"Creation date: {datetime.now().strftime('%d/%m/%Y, %H:%M')}", styles["Normal"]))
         elements.append(Spacer(1, 50))
         
         

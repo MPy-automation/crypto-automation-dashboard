@@ -26,6 +26,18 @@ During a single run, the project performs the following steps:
 7. Logs all steps (info / warning / error)
 8. Supports **automatic execution** using Windows Task Scheduler
 
+
+## Screenshots
+
+### Overview PDF page
+![Overview PDF](screenshots/overview.png)
+
+### Spreadsheet table
+![Spreadsheet](screenshots/spreadsheet.png)
+
+### Crypto-specific PDF page
+![Crypto PDF](screenshots/crypto_page.png)
+
 ---
 
 ## Key features
